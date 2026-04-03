@@ -283,10 +283,10 @@ const gisNote = document.createElement('div');
 gisNote.style.cssText = 'display:flex;align-items:center;gap:10px;padding:12px 16px;background:var(--g5);border-radius:14px;border:1px solid var(--border);font-size:11px;color:var(--text3);margin-top:8px';
 gisNote.innerHTML = '<span style="font-size:16px;flex-shrink:0">🗺️</span><span>'
   + (LANG==='kk'
-    ? 'Қосымша орталықтарды <a href="https://2gis.kz" target="_blank" style="color:var(--g1);font-weight:700;text-decoration:none">2gis.kz</a> сайтынан табуға болады.'
+    ? 'Барлық контактілер мен мекенжайлар <a href="https://2gis.kz" target="_blank" style="color:var(--g1);font-weight:700;text-decoration:none">2gis.kz</a> сайтынан алынған. Ақпарат 22.03.2026 жағдайы бойынша өзекті және уақыт өте келе өзгеруі мүмкін.'
     : LANG==='en'
-    ? 'Find more centers on <a href="https://2gis.kz" target="_blank" style="color:var(--g1);font-weight:700;text-decoration:none">2gis.kz</a>.'
-    : 'Дополнительные центры можно найти на <a href="https://2gis.kz" target="_blank" style="color:var(--g1);font-weight:700;text-decoration:none">2gis.kz</a>.')
+    ? 'All contacts and addresses are sourced from <a href="https://2gis.kz" target="_blank" style="color:var(--g1);font-weight:700;text-decoration:none">2gis.kz</a>. Information is current as of 22.03.2026 and may change over time.'
+    : 'Все контакты и адреса взяты с <a href="https://2gis.kz" target="_blank" style="color:var(--g1);font-weight:700;text-decoration:none">2gis.kz</a>. Информация актуальна по состоянию на 22.03.2026 и может изменяться со временем.')
   + '</span>';
 wrap.appendChild(gisNote);
 
@@ -563,4 +563,3 @@ function loadIframeMap() {
 
 initYMap();
 }
- 
